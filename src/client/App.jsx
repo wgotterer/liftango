@@ -24,7 +24,7 @@ const App = () => {
   const [mapInstance, setMapInstance] = useState(null);
   const [tripDates, setTripDates] = useState([]);
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyDmN5Vrpbo-LJHnYFYtBJTb-Qe6k6h6hxc",
+    googleMapsApiKey: "insert-api-key-here",
   });
 
   const onMapLoad = (map) => {
